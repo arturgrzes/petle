@@ -1,16 +1,11 @@
 'use script'
 
 
-var it = 0;
-while(it < 5) {
-    console.log(it);
+var a = 0;
+while(a < 5) {
+    console.log(++a);
+   if ( a == 3 ) {
+       break;
+   }
 }
 
-var iter = 20;
-do {
-    console.log(iter);
-    iter++;
-    // console.log(iter);
-    
-}
-while ( iter < 10);
