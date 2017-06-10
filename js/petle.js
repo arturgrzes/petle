@@ -1,11 +1,11 @@
 'use script'
 
-
-var a = 0;
-while(a < 5) {
-    console.log(++a);
-   if ( a == 3 ) {
-       break;
-   }
+/* post i preinkrementacja */
+for (var i=1; i<4;) {
+    console.log(++i);
 }
 
+console.log("-----");
+for ( var i=1 ; i<4 ;) {
+    console.log(i++);
+}
