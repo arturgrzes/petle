@@ -1,7 +1,7 @@
 'use script'
 
 
-for (var i=4 ; i>=0 ; i--) {
-    console.log(i);
+var it = 0;
+while(it < 5) {
+    console.log(it);
 }
-
